@@ -1,4 +1,5 @@
 #include "Personaje.h"
+#include <SFML/Window/Keyboard.hpp>
 
 Personaje::Personaje() {
 	cuerpo.setRadius(30.f);
