@@ -1,7 +1,7 @@
 #ifndef JUEGO_H
 #define JUEGO_H
 #include <SFML/Graphics.hpp>
-#include "Personaje.h"
+#include "Jugador.h"
 #include <SFML/Graphics/RenderWindow.hpp>
 
 class Juego {
@@ -10,7 +10,7 @@ public:
 	void ejecutar();
 private:
 	sf::RenderWindow ventana;
-	Personaje jugador;
+	Jugador j;
 };
 
 #endif
